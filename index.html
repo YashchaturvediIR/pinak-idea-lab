@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: yellow;
+            height: 500px;
+        }
+
+        .sub-container {
+            background-color: red;
+            height: 100px;
+            margin-top: 370px;
+        }
+
+
+        .triangle {
+            position: absolute;
+            bottom: 100px;
+            width: 0;
+            height: 0;
+            margin-left: 500px;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-top: 100px solid yellow;
+            transform: rotate(0deg);
+        }
+
+        .circle {
+            position: absolute;
+            bottom: 430px;
+            width: 100px;
+            height: 100px;
+            margin-left: 540px;
+            border-radius: 50%;
+            background-color: brown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            opacity: 50%;
+            font-size: 20px;
+
+        }
+
+
+        .head {
+            color: burlywood;
+            margin-left: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="head">Pinak Idea Lab</h1>
+        <div class="sub-container">
+
+            <div class="triangle">
+
+            </div>
+            <div class="circle">
+                <span>:)</span>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
